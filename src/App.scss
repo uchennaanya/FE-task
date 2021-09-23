@@ -1,0 +1,165 @@
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 2rem;
+  box-shadow: 0 0.2px 9px 0 #f1f1f1;
+  nav {
+    li {
+      list-style: none;
+      background: #DEEFFF;
+      border-bottom: 0.4rem solid #609FFF;
+      padding: 1rem 2rem 1rem 1rem;
+      margin-left: 5rem;
+      .iconify {
+        color: #ccc;
+        font-size: 1.5rem;
+        padding: 0!important;
+      }
+    }
+  }
+}
+
+.add-todo {
+  input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+  }
+}
+
+.btn-add{
+  background-color: transparent;
+  border: none;
+  color: #609FFF;
+}
+
+.btn-cancel{
+  background-color: transparent;
+  border: none;
+  color: rgb(48, 44, 44);
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.btn-add-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: #609FFF;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 85%;
+  font-weight: lighter;
+}
+
+table {
+  li span{
+    font-size: 12px;
+    color: #878592;
+  }
+td span {
+  color: #878592;
+  font-size: 12px;
+}
+th {
+  color: #899198;
+  font-weight: lighter;
+  font-family: Quicksand;
+}
+}
+.iconify {
+  margin: 0 0.3rem;
+  color: #3459eb;
+  font-size: 16px;
+}
+
+.left-pane {
+  .iconify {
+    margin: 0 1rem 0 0.3rem;
+    color: #A1AACE;
+    font-size: 20px;
+  }
+  .personal-data {
+    box-shadow: 0 1px 20px 0 #f1f1f1;
+    background-color: #fff;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+  }
+  p {
+    display: flex;
+    align-items: center;
+  }
+  input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    margin-left: 11.5em;
+    outline: none;
+    transition-duration: 0.3s;
+    border: 1px solid;
+    cursor: pointer;
+  }
+
+  .todo {
+    padding: 1rem; margin: 2rem 0; box-shadow: 0 9px 20px 0 #f1f1f1;
+  }
+
+.date {
+  display: flex; justify-items: center;
+  .month {
+    text-align: left;
+    display: block;
+    margin-top: 5px
+}
+.day {
+    margin-left: 9rem;
+    font-size:'30px';
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 15px
+}
+.day-number {
+  font-size: 40px;
+}
+}
+  .todolist {
+      border-bottom: 0.4px solid #ccc;
+      padding: 1rem 0 0.5rem 0;
+  }
+}
+
+.card-wrapper {
+  display: flex;
+  margin-left: 1rem;
+  flex-wrap: wrap;
+  .card {
+    box-shadow: 0 0.3px 20px 0 #f1f1f1;
+    padding: 20px 1rem;
+    max-height: 30vh;
+    margin: 0 1rem 0 0;
+    min-width: 16.5vw;
+    border-radius: 5px;
+  }
+  .number {
+    color: rgba(25, 25, 29, 1);
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .description {
+    font-weight: lighter; font-size: 0.7rem
+  }
+  .icon{
+    float: right;
+    margin-top: 1rem;
+  }
+}
